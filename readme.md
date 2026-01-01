@@ -40,6 +40,21 @@ mysql-connector-python==9.5.0
 contextmanager   
 pytest==9.0.2
 
+## Database Setup
+Create a database named expense_manager and a table named expenses:
+SQL
+CREATE DATABASE expense_manager;
+
+USE expense_manager;
+
+CREATE TABLE expenses (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    expense_date DATE NOT NULL,
+    category VARCHAR(50) NOT NULL,
+    amount DECIMAL(10, 2) NOT NULL,
+    notes TEXT
+);
+
 ## Run the Backend (FastAPI)
 Navigate to your server directory and start the Uvicorn server:  
 uvicorn server:app --reload
