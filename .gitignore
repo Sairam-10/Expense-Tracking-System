@@ -1,0 +1,12 @@
+# Ignore PyCharm settings
+.idea/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore environment logs
+backend/expense_activity.log
+
+# Ignore local virtual environments
+venv/
