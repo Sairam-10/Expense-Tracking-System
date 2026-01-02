@@ -1,4 +1,4 @@
-# Expense Management System
+# Expense Tracking System
 A full-stack web application designed to track, manage, and visualize daily expenses. This system allows users to fetch data for specific dates, perform bulk updates via an interactive table, and view financial insights through dynamic charts.
 
 ## 🚀 Features
